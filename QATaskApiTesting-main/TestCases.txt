@@ -1,0 +1,23 @@
+GET: LIST USERS (https://reqres.in/api/users)
+//Test cases for GET /api/users
+1. Verify that GET /api/users returns 200 OK 
+2. Make request without authorization
+
+POST: REGISTER USER (https://reqres.in/api/register)
+//Test cases for POST /api/register
+1. Make request with all valid data
+2. Make request with invalid email
+3. Make request with invalid password
+4. Make request with both email and password are invalid
+
+DELETE: DELETE (https://reqres.in/api/users/{id})
+//Test cases for DELETE /api/users{id}
+1. Make request with valid id
+2. Make request with id which does not exist
+3. Make request with id as string (in exmaple id=test)
+
+GET: DELAYED RESPONSE (https://reqres.in/api/users?delay=)
+//Test cases for /api/users/delay
+1. Make request with positive number 
+2. Make request with negative number
+3. Make requst with delay as string
